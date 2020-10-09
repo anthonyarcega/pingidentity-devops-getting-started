@@ -23,7 +23,7 @@ metadata:
     role: pingdirectory
   name: pingdirectory
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       role: pingdirectory
